@@ -1,5 +1,13 @@
 # intelliJ project meta files
 .idea
+*.iml
 
 # build files
 target
+
+# Mac files
+.DS_STORE
+
+# vim files
+*.swo
+*.swp

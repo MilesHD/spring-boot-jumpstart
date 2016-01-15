@@ -8,6 +8,8 @@ a new paradigm for developing Spring applications with minimal friction.
 The goal of this repository is to provide the context to familiarize yourself
 with the tool, and some best practices for common use cases.
 
+## Core Concepts
+
 ### Automatic Configuration
 Automatic Configuration means the developer no longer has to write explicity
 configuration for common configuration scenarios. For example, needing to 
@@ -23,7 +25,7 @@ and enables you to define your project by features, rather than tinker with depe
 and versions manually. Starter Dependencies take advantage of transitive dependency
 resolution in Maven or Gradle dependcies and provides an opinionted stack of dependencies 
 when resolved.  For example, including the `spring-web ` starter-dependency will add
-`spring-aop`, `spring-beans`, among others automatically.
+`spring-aop`, `spring-beans`, among other packages automatically.
 
 ### Command Line Tool
 The Command Line Tool is a way to write complete applications without a traditional 
@@ -36,3 +38,8 @@ The Actuator allows the developer to insepct your application internals at runti
 For example, the developer can see what beans are configured, what decisions were
 made by auto-configure, environment variables, the state of threads, etc. The Actuator
 exposees data via API endpoints and a shell interface.
+
+
+# Up and Running
+[Spring Boot Documentation]: <http://spring.io/docs>
+
