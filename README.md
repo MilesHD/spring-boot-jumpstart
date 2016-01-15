@@ -45,7 +45,8 @@ exposees data via API endpoints and a shell interface.
 - Use the [Spring Initializer]: <https://start.spring.io> to bootstrap your
 project or use the the command line too `spring init`
 - Once your project is built and opened in your favorite IDE, you can run your
-spring boot application with `gradle bootRun` or 'mvn:spring-boot:run`
+spring boot application with `gradle bootRun` or `mvn:spring-boot:run`
 
 ## Resources
-[Spring Boot Documentation]: <http://spring.io/docs>
+- [Spring Boot Documentation]: <http://spring.io/docs>
+- [Spring Boot in Action]: <https://www.manning.com/books/spring-boot-in-action>
