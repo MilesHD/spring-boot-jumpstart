@@ -39,7 +39,13 @@ For example, the developer can see what beans are configured, what decisions wer
 made by auto-configure, environment variables, the state of threads, etc. The Actuator
 exposees data via API endpoints and a shell interface.
 
+## Up and Running
 
-# Up and Running
+- Ensure you have Java, Maven or Gradle, and Spring intalled and configured.
+- Use the [Spring Initializer]: <https://start.spring.io> to bootstrap your
+project or use the the command line too `spring init`
+- Once your project is built and opened in your favorite IDE, you can run your
+spring boot application with `gradle bootRun` or 'mvn:spring-boot:run`
+
+## Resources
 [Spring Boot Documentation]: <http://spring.io/docs>
-
