@@ -1,5 +1,5 @@
 
-package readingList;
+package com.readingList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.milesdickinson;
+package com.readingList;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
